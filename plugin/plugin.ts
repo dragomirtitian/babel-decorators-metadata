@@ -1,10 +1,8 @@
 import { declare } from "@babel/helper-plugin-utils";
 import syntaxTypeScript from "@babel/plugin-syntax-typescript";
 import { types as t, PluginObj } from "@babel/core";
-import { decorator, TSType, unaryExpression, memberExpression } from "@babel/types";
+import { decorator, unaryExpression, memberExpression } from "@babel/types";
 
-
-const PARSED_PARAMS = new WeakSet();
 declare module '@babel/core' {
   export function assertVersion(api: number);
 }
@@ -21,7 +19,7 @@ export default declare((api: typeof import('@babel/core'), { jsxPragma = "React"
         for (const field of node.body.body) {
           if (field.type !== "ClassProperty") continue;
 
-          if (field.typeAnnotation && field.typeAnnotation.type === "TSTypeAnnotation" && field.decorators.length > 0) {
+          if (field.typeAnnotation && field.typeAnnotation.type === "TSTypeAnnotation" && field.decorators && field.decorators.length > 0) {
             const key = field.key as t.Identifier;
             const serializedType = serializeTypeNode(field.typeAnnotation.typeAnnotation);
             field.decorators.push(decorator(
