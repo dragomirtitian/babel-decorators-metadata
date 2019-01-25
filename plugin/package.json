@@ -1,0 +1,29 @@
+{
+  "name": "babel-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/helper-plugin-test-runner": "^7.1.0",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/plugin-transform-typescript": "^7.2.0",
+    "@types/babel__code-frame": "^7.0.0",
+    "@types/babel__core": "^7.0.4",
+    "@types/babel__template": "^7.0.1",
+    "@types/babel__traverse": "^7.0.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18"
+  }
+}

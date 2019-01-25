@@ -1,0 +1,529 @@
+{
+    "a:Errors": [
+        {
+            "a:ContextId": "1",
+            "a:Descriptions": {
+                "a:ErrorDetailedDescription": {
+                    "a:Code": "45",
+                    "a:Description": {
+                        "a:Explanation": "Es handelt sich um ein Substantiv oder einen Eigennamen.",
+                        "a:Header": "Kleinschreibung überprüfen.",
+                        "a:Instruction": "Schreiben Sie dieses Wort groß."
+                    }
+                }
+            },
+            "a:Id": "0",
+            "a:Proposals": {
+                "a:Proposal2": {
+                    "a:ConceptId": "0",
+                    "a:Text": "Mine"
+                }
+            },
+            "a:Type": "Spelling"
+        },
+        {
+            "a:ContextId": "1",
+            "a:Descriptions": [
+                {
+                    "a:Code": "DEPR",
+                    "a:Description": {
+                        "a:Explanation": "Dieser Term ist ein Negativterm.",
+                        "a:Header": "Term ersetzen.",
+                        "a:Instruction": "Verwenden Sie den Term nicht. Verwenden Sie stattdessen den vorgeschlagenen Term."
+                    }
+                },
+                {
+                    "a:Code": "GENUS",
+                    "a:Description": {
+                        "a:Header": "Grammatische Korrektheit überprüfen.",
+                        "a:Instruction": "Achten Sie beim Ersetzen auf Artikel und Adjektive, die neben dem Term stehen können."
+                    }
+                },
+                {
+                    "a:Code": "CASE",
+                    "a:Description": {
+                        "a:Header": "Grammatische Korrektheit überprüfen.",
+                        "a:Instruction": "Achten Sie beim Ersetzen auf den Kasus."
+                    }
+                }
+            ],
+            "a:Id": "1",
+            "a:Proposals": {
+                "a:Proposal2": {
+                    "a:AdditionalInfo": "Headset",
+                    "a:BaseTermForm": "Kopfhörer",
+                    "a:ConceptId": "4",
+                    "a:Text": "Headset"
+                }
+            },
+            "a:RelatedTerms": {
+                "b:TermInfo": {
+                    "b:Term": {
+                        "b:Id": "365",
+                        "b:Properties": [
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Wortklasse",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "Normal",
+                                        "b:Value": "Substantiv"
+                                    }
+                                }
+                            },
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Genus",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "Normal",
+                                        "b:Value": "Maskulinum"
+                                    }
+                                }
+                            },
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Verwendung",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "DoNotUse",
+                                        "b:Value": "Unwort"
+                                    }
+                                }
+                            }
+                        ],
+                        "b:Term": "Kopfhörer",
+                        "b:Concept": {
+                            "b:ConceptId": "180",
+                            "b:Definitions": {
+                                "b:Definition": {
+                                    "b:Lcid": "1031",
+                                    "b:Note": "Nicht zu verwechseln mit einem Kopfhörer, über den Töne an das Ohr übertragen werden.",
+                                    "b:Text": "Gerät, welches am Kopf und speziell an der Schläfe angelegt wird, um die Gehirnwellen des Anwenders zu erfassen."
+                                }
+                            },
+                            "b:Synonyms": {
+                                "b:Synonym": {
+                                    "b:Id": "0",
+                                    "b:Properties": [
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Wortklasse",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Substantiv"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Genus",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Neutrum"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Verwendung",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Recommended",
+                                                    "b:Value": "Standard"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "b:Term": "Headset"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "a:Type": "Terminology"
+        },
+        {
+            "a:ContextId": "1",
+            "a:Descriptions": {
+                "a:ErrorDetailedDescription": {
+                    "a:Code": "DEPR",
+                    "a:Description": {
+                        "a:Explanation": "Dieser Term ist ein Negativterm.",
+                        "a:Header": "Term ersetzen.",
+                        "a:Instruction": "Verwenden Sie den Term nicht. Verwenden Sie stattdessen den vorgeschlagenen Term."
+                    }
+                }
+            },
+            "a:Id": "2",
+            "a:Proposals": {
+                "a:Proposal2": {
+                    "a:AdditionalInfo": "Compathy ContentGrasp SX",
+                    "a:BaseTermForm": "ContentGrasp",
+                    "a:ConceptId": "1",
+                    "a:Text": "Compathy ContentGrasp SX"
+                }
+            },
+            "a:RelatedTerms": {
+                "b:TermInfo": {
+                    "b:Term": {
+                        "b:Id": "363",
+                        "b:Properties": [
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Wortklasse",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "Normal",
+                                        "b:Value": "Substantiv"
+                                    }
+                                }
+                            },
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Verwendung",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "DoNotUse",
+                                        "b:Value": "Unwort"
+                                    }
+                                }
+                            }
+                        ],
+                        "b:Term": "ContentGrasp",
+                        "b:Concept": {
+                            "b:ConceptId": "179",
+                            "b:Definitions": {
+                                "b:Definition": {
+                                    "b:Lcid": "1031",
+                                    "b:Note": "Normalerweise ist das Verwenden des Firmennamens zu empfehlen.",
+                                    "b:Text": "Beschreibt den Namen des Headsets mit dem es möglich ist, menschliche Gehirnwellen auszuwerten, um zu erkennen wie gut gelesene Texte verstanden wurden."
+                                }
+                            },
+                            "b:Synonyms": [
+                                {
+                                    "b:Id": "0",
+                                    "b:Properties": [
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Wortklasse",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Substantiv"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Genus",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Neutrum"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Verwendung",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Recommended",
+                                                    "b:Value": "Standard"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "b:Term": "Compathy ContentGrasp SX"
+                                },
+                                {
+                                    "b:Id": "0",
+                                    "b:Properties": [
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Wortklasse",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Substantiv"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Genus",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Neutrum"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Verwendung",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Synonym"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "b:Term": "ContentGrasp SX"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "a:Type": "Terminology"
+        },
+        {
+            "a:ContextId": "1",
+            "a:Descriptions": {
+                "a:ErrorDetailedDescription": {
+                    "a:Code": "POSNEG",
+                    "a:Description": {
+                        "a:Explanation": "Der Term ist in der Terminologie-Datenbank sowohl als Negativterm als auch als Vorzugsterm oder zugelassener Term vorhanden.",
+                        "a:Header": "Term überprüfen.",
+                        "a:Instruction": "Prüfen Sie, ob der Term in diesem Kontext erlaubt ist, oder verwenden Sie stattdessen den vorgeschlagenen Term."
+                    }
+                }
+            },
+            "a:Id": "3",
+            "a:Proposals": [
+                {
+                    "a:AdditionalInfo": "Proband",
+                    "a:BaseTermForm": "Proband",
+                    "a:ConceptId": "7",
+                    "a:Text": "Proband"
+                },
+                {
+                    "a:AdditionalInfo": "Tester",
+                    "a:BaseTermForm": "Proband",
+                    "a:ConceptId": "8",
+                    "a:Text": "Tester"
+                }
+            ],
+            "a:RelatedTerms": [
+                {
+                    "b:Term": {
+                        "b:Id": "368",
+                        "b:Properties": [
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Wortklasse",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "Normal",
+                                        "b:Value": "Substantiv"
+                                    }
+                                }
+                            },
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Genus",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "Normal",
+                                        "b:Value": "Maskulinum"
+                                    }
+                                }
+                            },
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Verwendung",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "DoNotUse",
+                                        "b:Value": "Unwort"
+                                    }
+                                }
+                            }
+                        ],
+                        "b:Term": "Proband",
+                        "b:Concept": {
+                            "b:ConceptId": "183",
+                            "b:Definitions": {
+                                "b:Definition": {
+                                    "b:Lcid": "1031",
+                                    "b:Text": "Testperson, die die Funktionalität des Headsets überprüft und sicher stellt, dass damit positive Ergebnisse erreicht werden."
+                                }
+                            },
+                            "b:Properties": {
+                                "b:PropertyBase": {
+                                    "$type": "b:TextProperty",
+                                    "b:Name": "TOPAS-ID",
+                                    "b:Values": {
+                                        "c:string": "my topas id"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "b:Term": {
+                        "b:Id": "369",
+                        "b:Properties": [
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Wortklasse",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "Normal",
+                                        "b:Value": "Substantiv"
+                                    }
+                                }
+                            },
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Genus",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "Normal",
+                                        "b:Value": "Maskulinum"
+                                    }
+                                }
+                            },
+                            {
+                                "$type": "b:PicklistProperty",
+                                "b:Name": "Verwendung",
+                                "b:Values": {
+                                    "b:PicklistPropertyValue": {
+                                        "b:Usage": "Recommended",
+                                        "b:Value": "Standard"
+                                    }
+                                }
+                            }
+                        ],
+                        "b:Term": "Proband",
+                        "b:Concept": {
+                            "b:ConceptId": "184",
+                            "b:Definitions": {
+                                "b:Definition": {
+                                    "b:Lcid": "1031",
+                                    "b:Text": "Lebensmitteltester, der unterstützen soll, die Auswirkung von Omega-3-Fetten auf die Leber festzustellen."
+                                }
+                            },
+                            "b:Synonyms": [
+                                {
+                                    "b:Id": "0",
+                                    "b:Properties": [
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Wortklasse",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Substantiv"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Genus",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Maskulinum"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Verwendung",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "DoNotUse",
+                                                    "b:Value": "Unwort"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "b:Term": "Tester"
+                                },
+                                {
+                                    "b:Id": "0",
+                                    "b:Properties": [
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Wortklasse",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Substantiv"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "$type": "b:PicklistProperty",
+                                            "b:Name": "Genus",
+                                            "b:Values": {
+                                                "b:PicklistPropertyValue": {
+                                                    "b:Usage": "Normal",
+                                                    "b:Value": "Maskulinum"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "b:Term": "Probierer"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "a:Type": "Terminology"
+        }
+    ],
+    "a:Reporting": {
+        "a:AcceptableReleaseLevel": "85",
+        "a:AcceptableReleaseLevelTitle": "Acceptable",
+        "a:RelativeReleaseLevel": "0",
+        "a:ReleaseLevel": "0",
+        "a:ReportingByTypes": [
+            {
+                "a:ErrorCount": "0",
+                "a:RelativeSeverity": "120",
+                "a:Severity": "100",
+                "a:Type": "Abbreviation"
+            },
+            {
+                "a:ErrorCount": "0",
+                "a:RelativeSeverity": "120",
+                "a:Severity": "100",
+                "a:Type": "Grammar"
+            },
+            {
+                "a:ErrorCount": "1",
+                "a:RelativeSeverity": "0",
+                "a:Severity": "0",
+                "a:Type": "Spelling"
+            },
+            {
+                "a:ErrorCount": "0",
+                "a:RelativeSeverity": "120",
+                "a:Severity": "100",
+                "a:Type": "Style"
+            },
+            {
+                "a:ErrorCount": "3",
+                "a:RelativeSeverity": "0",
+                "a:Severity": "0",
+                "a:Type": "Terminology"
+            }
+        ],
+        "a:SafeReleaseLevel": "95",
+        "a:SafeReleaseLevelTitle": "Safe",
+        "a:TotalCheckedWords": "7",
+        "a:UnsafeReleaseLevel": "0",
+        "a:UnsafeReleaseLevelTitle": "Unsafe"
+    },
+    "a:ResultXml": "<doc><text id=\"jr87xein\"><?cngr-ctx-b 1?>Hier sind <?cngr-lc-b 0?>mine<?cngr-lc-e 0?> <?cngr-lc-b 1?>Kopfhörer<?cngr-lc-e 1?>. <?cngr-lc-b 2?>ContentGrasp<?cngr-lc-e 2?>. <?cngr-lc-b 3?>Proband<?cngr-lc-e 3?>.<?cngr-ctx-e 1?></text></doc>"
+}
