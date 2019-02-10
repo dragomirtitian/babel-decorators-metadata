@@ -1,6 +1,6 @@
 # babel-decorators-metadata
 
-This is an experimental babel plugin that emits decorator metadata. Based on requiremnets from [here](https://stackoverflow.com/questions/53015862/metadata-retention-with-typescript-babel-7-decorators/54360611#54360611)
+This is an experimental babel plugin that emits decorator metadata. Based on requirements from [here](https://stackoverflow.com/questions/53015862/metadata-retention-with-typescript-babel-7-decorators/54360611#54360611)
 
 Limitations:
 * If no type annotation is present we have no type to write
